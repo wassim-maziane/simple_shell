@@ -42,6 +42,6 @@ void file_stat(char *cmd, char **argv)
 		}
 		token = strtok(NULL, ":");
 	}
-	perror("not found");
+	perror("./shell");
 	_getline();
 }
